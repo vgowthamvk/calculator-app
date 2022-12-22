@@ -58,8 +58,8 @@ def calculation():
                 is_continue = True
                 num1 = answer
             elif y_r_n == 'new':
-                is_continue = False
                 clear()
+                is_continue = False
                 calculation()
             else:
                 print("Thank you for using Calculator have a great day!")
